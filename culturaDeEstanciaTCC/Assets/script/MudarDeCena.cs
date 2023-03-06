@@ -5,18 +5,35 @@ using UnityEngine.SceneManagement;
 
 public class MudarDeCena : MonoBehaviour
 {
-    [SerializeField] private string nomeDoLevelDeJogo;
+    
+    [SerializeField] private string LevelDeJogo;
     [SerializeField] private GameObject painelMenuInicial;
     [SerializeField] private GameObject painelDeOpcoes;
 
-    void Start()
+    public void jogar()
+   
     {
-        SceneManager.LoadScene("jogo");
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
+        SceneManager.LoadScene(LevelDeJogo);
         
     }
+
+    public void AbriOpcoes()
+    {
+        painelMenuInicial.SetActive(false);
+        painelDeOpcoes.SetActive(true);
+    }
+
+    public void FechaOpções()
+    {
+        painelDeOpcoes.SetActive(false);
+        painelMenuInicial.SetActive(true);
+    }
+
+    public void sairDoJogo()
+    {
+        Debug.Log("sair do jogo");
+        Application.Quit();
+    }
+ 
+
 }
