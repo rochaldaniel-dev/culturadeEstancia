@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1366
     height: 677
   m_ShowMode: 4
-  m_Title: Game
+  m_Title: Project
   m_RootView: {fileID: 7}
   m_MinSize: {x: 875, y: 371}
   m_MaxSize: {x: 10000, y: 10000}
@@ -74,7 +74,7 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 200}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
-  controlID: 18
+  controlID: 28
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -249,7 +249,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 1
-  controlID: 17459
+  controlID: 95
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -275,7 +275,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 8096}
   vertical: 0
-  controlID: 17460
+  controlID: 96
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -343,22 +343,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/script
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 56
   m_LastFolders:
-  - Assets
+  - Assets/script
   m_LastFoldersGridSize: 56
   m_LastProjectPath: D:\projetosIndividual\projetosUnity\culturadeEstancia\culturaDeEstanciaTCC
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 87}
-    m_SelectedIDs: bc500000
-    m_LastClickedID: 20668
-    m_ExpandedIDs: 00000000bc500000c650000000ca9a3b
+    m_SelectedIDs: 4a510000
+    m_LastClickedID: 20810
+    m_ExpandedIDs: 000000003851000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -386,7 +386,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000bc500000
+    m_ExpandedIDs: 0000000038510000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -477,7 +477,7 @@ MonoBehaviour:
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 594
+  m_LastVerticalScrollValue: 0
   m_GlobalObjectId: 
   m_InspectorMode: 0
   m_LockTracker:
@@ -514,9 +514,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 36b70000
-      m_LastClickedID: 46902
-      m_ExpandedIDs: 7884ffff8088ffffc092ffffc298ffffc49bffff849effff52a5ffff92a6ffffaca8ffffa4b3ffff0ab4ffff4eb4ffffe6b4ffff00c1ffff48c1ffff96c2ffff90c5ffffe8c5ffff7ecaffffc8caffff1acbffff82cbffffc8cbffff0eccffff56ccffff5ed1ffffded1ffff52d2ffff68d7ffffc6d7ffff22d8ffff68d8ffffb2d8ffff94daffffdadaffff2ce1ffffc2e2ffff8cecffffe6ecffff48edffffa2edffff02eeffff60eefffffeeeffffa8f0ffff82f1ffffd4f1ffff1cf2ffff70f2ffffb8f2fffffaf2ffff46f3ffffc8f3ffff18f4ffff4ef6ffff4af8ffff98f8ffffdef8ffff2cf9ffff1afbffff64700000f6700000487200005c7200008a720000c2730000fc73000054740000727b00005c7c0000967c0000ee7c0000847f00006e800000928b0000249200005e920000b69200003a9c00005ca10000eea100003aa50000cca500001aaa00005eae00005ab70000ecb70000
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: 28fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
