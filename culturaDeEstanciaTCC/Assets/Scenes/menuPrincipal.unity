@@ -285,11 +285,11 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 6973d68055b146c4e904adb2554c4298, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
-  m_Pitch: 1
-  Loop: 0
+  m_Pitch: 1.23
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -727,6 +727,7 @@ GameObject:
   m_Component:
   - component: {fileID: 643674124}
   - component: {fileID: 643674125}
+  - component: {fileID: 643674126}
   m_Layer: 0
   m_Name: menuManager
   m_TagString: Untagged
@@ -764,6 +765,19 @@ MonoBehaviour:
   LevelDeJogo: Fase1
   painelMenuInicial: {fileID: 1909098774}
   painelDeOpcoes: {fileID: 1441607946}
+--- !u!114 &643674126
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 643674122}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d0c2d773635b82499f26f58b15529b6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fundoMusica: {fileID: 156463954}
 --- !u!1 &774077356
 GameObject:
   m_ObjectHideFlags: 0
@@ -1437,7 +1451,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Navigation:
-    m_Mode: 3
+    m_Mode: -1
     m_WrapAround: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
@@ -2943,7 +2957,19 @@ MonoBehaviour:
   m_Value: 1
   m_OnValueChanged:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 643674126}
+        m_TargetAssemblyTypeName: ModoDeSon, Assembly-CSharp
+        m_MethodName: volumeMusical
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 1
 --- !u!1 &2031914077
 GameObject:
   m_ObjectHideFlags: 0

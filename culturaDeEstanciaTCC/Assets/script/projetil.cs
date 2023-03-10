@@ -24,14 +24,6 @@ public class projetil : MonoBehaviour
     
  
 
-    void OnTriggerEnter2D(Collider2D outro)
-    {
-        if (outro.CompareTag(tagInimigo))
-        {
-            Destroy(outro.gameObject);
-            Destroy(municao.gameObject);
-        }
-    }
 
 }
 
