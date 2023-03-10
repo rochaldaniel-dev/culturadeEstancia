@@ -8,6 +8,8 @@ public class movimentoPlayer : MonoBehaviour
     public float speed = 5.0f; // velocidade do movimento do jogador
 
     private Camera mainCamera; // referência à câmera na cena
+    public GameObject projetil;
+    public Transform posicaoProjetil;
 
     private void Start()
     {
@@ -32,6 +34,16 @@ public class movimentoPlayer : MonoBehaviour
     Vector3 moveDirection = cameraForward * movement.y + cameraRight * movement.x;
     moveDirection.y = movement.y;
     transform.position += moveDirection.normalized * speed * Time.deltaTime;
+
+        atirar();
+    }
+
+    public void atirar()
+    {
+        if (Input.GetKeyDown(KeyCode.Mouse0))
+        {
+            Instantiate(projetil, posicaoProjetil.position, Quaternion.identity);
+        }
     }
 
 }
