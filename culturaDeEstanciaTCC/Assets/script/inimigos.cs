@@ -4,15 +4,28 @@ using UnityEngine;
 
 public class inimigos : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public int energia;
+    
+    
 
-    // Update is called once per frame
+   
     void Update()
     {
-        
+        if(energia <= 0)
+        {
+            Invoke("DestroyEnemy", energia); 
+        }
     }
+
+
+    public void takeDamage(int damage)
+    {
+        energia -= damage;
+    }
+
+    private void DestroyEnemy()
+    {
+       Destroy(gameObject); 
+    }
+
 }
